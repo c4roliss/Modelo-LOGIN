@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alguma coisa</title>
+    <link rel="stylesheet" href="login.css">
+    <!-- Para criar um arquivo mais rápido aperta crtl com o cursor em cima do estilo.css -->
+</head>
+<body>
+    <header>
+        <h1>Faça login na sua conta</h1>
+    </header>
+    <section>
+        <div id="espaçamentoDiv">
+            <div style="margin-top:5%">
+                <label for="email">E-mail/celular</label><br>
+                <input type="email" name="" id="email" placeholder="Endereço de e-mail ou número do celular" size="55" ><br>
+                <div id="divsenha">
+                    <label for="senha">Senha</label><br>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha " size="55">
+                    <img src="Imagens/eye-off.svg" id="imgsenha" alt="Olho">
+                </div>
+                <a href=""><input type="button" class="botao" value="Entrar" onclick="entrar()"></a>                
+            </div>
+            <div>
+                <p ><a href="#"> Esqueceu sua senha?</a></p>
+                <p>Não tem uma conta? <a href="#">Registre-se</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Carolina Praxedes - 2021</p>
+    </footer>
+    <script src="login.js"></script>
+</body>
+</html>
